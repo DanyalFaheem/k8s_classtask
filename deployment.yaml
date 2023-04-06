@@ -16,4 +16,4 @@ spec:
       - name: k8s-classtask
         image: danyalfaheem/flaskapp:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 8080
