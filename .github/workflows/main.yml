@@ -19,14 +19,5 @@ jobs:
       with:
         python-version: 3.8.16
 
-    - name: Install dependencies
-      run: |
-        make install
-
-    - name: Code formatting
-      run: |
-        make format
-
-    - name: Linting
-      run: |
-        make lint
+    - name: Run all
+      run: make all
