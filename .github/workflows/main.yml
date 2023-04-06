@@ -3,7 +3,7 @@ name: Kubernetes App
 
 on:
   push:
-    branches: main
+    branches: master
 
 
 jobs:
